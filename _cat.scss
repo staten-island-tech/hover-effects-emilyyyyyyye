@@ -1,0 +1,12 @@
+@import "_variable.scss";
+
+.cat {
+  height: 20rem;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.cat:hover {
+  filter: blur(30px);
+  transform: scale(1.3);
+}
