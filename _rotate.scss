@@ -1,0 +1,12 @@
+@import "_variable.scss";
+
+.dog {
+  transform: rotate(30deg) scale(1.4);
+  transition: 0.3s ease-in-out;
+  height: 20rem;
+}
+
+.dog:hover {
+  transform: rotate(0deg) scale(1);
+  filter: grayscale(1);
+}
